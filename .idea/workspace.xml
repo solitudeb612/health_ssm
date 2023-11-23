@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="baed5c3e-c78c-4a94-9efb-516690ab4c5f" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/health_parent/health_backend/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/health_parent/health_common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/health_parent/health_interface/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/health_parent/health_service_provider/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/health_parent/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yyh/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/resources/spring-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/resources/spring-dao.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +17,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="UML Class" />
       </list>
     </option>
   </component>
@@ -49,6 +41,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
+    "DefaultPlantUmlFileTemplate": "UML Class",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -63,7 +56,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.25632185",
     "settings.build.tools.auto.reload": "SELECTIVE",
-    "settings.editor.selected.configurable": "MavenSettings",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "spring.configuration.checksum": "8f682021bd83c608fc0d1bffaff1aa75",
     "vue.rearranger.settings.migration": "true"
   }
@@ -103,7 +96,8 @@
       <workItem from="1698368428024" duration="1957000" />
       <workItem from="1698750486073" duration="11095000" />
       <workItem from="1699005151158" duration="1388000" />
-      <workItem from="1700573581200" duration="21197000" />
+      <workItem from="1700573581200" duration="24424000" />
+      <workItem from="1700665958500" duration="7916000" />
     </task>
     <servers />
   </component>

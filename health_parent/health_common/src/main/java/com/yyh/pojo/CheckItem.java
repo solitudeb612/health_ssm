@@ -1,6 +1,7 @@
 package com.yyh.pojo;
 
 import java.io.Serializable;
+import java.math.BigDecimal;
 
 /**
  * 检查项
@@ -11,7 +12,8 @@ public class CheckItem implements Serializable {
     private String name;//项目名称
     private String sex;//适用性别
     private String age;//适用年龄（范围），例如：20-50
-    private Float price;//价格
+//    private Float price;//价格
+    private BigDecimal price;
     private String type;//检查项类型，分为检查和检验两种类型
     private String remark;//项目说明
     private String attention;//注意事项
@@ -72,11 +74,11 @@ public class CheckItem implements Serializable {
         this.attention = attention;
     }
 
-    public Float getPrice() {
+    public BigDecimal getPrice() {
         return price;
     }
 
-    public void setPrice(Float price) {
+    public void setPrice(BigDecimal price) {
         this.price = price;
     }
 

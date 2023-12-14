@@ -27,7 +27,7 @@
                 <div class="box">
                     <div class="filter-container">
                         <el-input placeholder="项目编码/项目名称" v-model="pagination.queryString" style="width: 200px;" class="filter-item"></el-input>
-                        <el-button @click="findPage()" class="dalfBut">查询</el-button>
+                        <el-button @click="searching()" class="dalfBut">查询</el-button>
                         <el-button type="primary" class="butT" @click="handleCreate()">新建</el-button>
                     </div>
                     <el-table size="small" current-row-key="id" :data="dataList" stripe highlight-current-row>
@@ -61,7 +61,7 @@
                     <!-- 新增标签弹层 -->
                     <div class="add-form">
                         <el-dialog title="新增检查项" :visible.sync="dialogFormVisible">
-                            <el-form ref="dataAddForm" :model="formData" :rules="rules" label-position="right" label-width="100px">
+                            <el-form ref="dataAddForm" :model="formData" :rules="rules" label-position="right" label-width="100px" >
                                 <el-row>
                                     <el-col :span="12">
                                         <el-form-item label="项目编码" prop="code">
@@ -288,6 +288,11 @@
                         }
                     });
                 },
+                searching(){
+                    // 在查询前重置当前页为1，
+                    this.pagination.currentPage = 1;
+                    this.findPage();
+                },
                 //分页查询
                 findPage() {
                     //发送ajax请求，提交分页相关请求参数（页码、每页显示记录数、查询条件）
@@ -305,6 +310,7 @@
                 // 重置表单
                 resetForm() {
                     this.formData = {};//重置数据
+                    this.$refs.dataAddForm.clearValidate();
                 },
                 // 弹出添加窗口
                 handleCreate() {

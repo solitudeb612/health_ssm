@@ -44,4 +44,7 @@
         <property name="maxInMemorySize" value="4096" />
         <property name="defaultEncoding" value="UTF-8"/>
     </bean>
+
+    <!--    TODO:搞懂springMVC的配置-->
+    <import resource="spring-redis.xml"></import>
 </beans>

@@ -6,13 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="baed5c3e-c78c-4a94-9efb-516690ab4c5f" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_backend/src/main/java/com/yyh/controller/CheckItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_backend/src/main/java/com/yyh/controller/CheckItemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_parent/health_backend/src/main/resources/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_backend/src/main/resources/springmvc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/health_parent/health_backend/src/main/webapp/pages/checkitem.html" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_backend/src/main/webapp/pages/checkitem.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_common/src/main/java/com/yyh/pojo/CheckItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_common/src/main/java/com/yyh/pojo/CheckItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_interface/src/main/java/com/yyh/service/CheckItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_interface/src/main/java/com/yyh/service/CheckItemService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/java/com/yyh/dao/CheckItemDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/java/com/yyh/dao/CheckItemDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/java/com/yyh/service/impl/CheckItemServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/java/com/yyh/service/impl/CheckItemServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/resources/com/yyh/dao/CheckItemDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/resources/com/yyh/dao/CheckItemDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_parent/health_common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_parent/src/main/java/com/yyh/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yyh/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +21,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="UML Class" />
+        <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -47,41 +47,47 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;DefaultPlantUmlFileTemplate&quot;: &quot;UML Class&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8 (2)&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/javaEE/health_ssm&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.25632185&quot;,
-    &quot;settings.build.tools.auto.reload&quot;: &quot;SELECTIVE&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;8f682021bd83c608fc0d1bffaff1aa75&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "DefaultPlantUmlFileTemplate": "UML Class",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "1.8 (2)",
+    "last_opened_file_path": "E:/后端/笔记/就业班2.1笔记源码-压缩版/阶段4：会员版(2.1)-医疗实战-传智健康/day04-第4章：预约管理-套餐管理/day04-第4章：预约管理-套餐管理/代码/quartzdemo",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.25632185",
+    "settings.build.tools.auto.reload": "SELECTIVE",
+    "settings.editor.selected.configurable": "preferences.rainbow.brackets.color",
+    "spring.configuration.checksum": "8f682021bd83c608fc0d1bffaff1aa75",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\javaEE\health_ssm\health_parent\health_backend\src\main\webapp\pages" />
-      <recent name="E:\javaEE\health_ssm\health_parent\health_backend\src\main\webapp\asserts" />
-      <recent name="E:\javaEE\health_ssm\health_parent\health_backend\src\main\webapp\img" />
+      <recent name="E:\javaEE\health_ssm\health_parent\health_service_provider\src\main\resources\com\yyh\dao" />
       <recent name="E:\javaEE\health_ssm\health_parent\health_backend\src\main\resources" />
-      <recent name="E:\javaEE\health_ssm\health_service_provider\src\main\resources" />
+      <recent name="E:\javaEE\health_ssm\health_parent\health_backend\src\main\webapp\pages" />
+      <recent name="E:\javaEE\health_ssm\health_parent\health_backend\src\test\java" />
+      <recent name="E:\javaEE\health_ssm\health_parent\health_service_provider\src\main\java\com\yyh\service\impl" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\javaEE\health_ssm\health_parent\health_backend\src\main\resources" />
       <recent name="E:\javaEE\health_ssm\health_parent\health_service_provider\src\main\resources" />
+      <recent name="E:\javaEE\health_ssm\health_parent\health_backend\src\main\resources" />
       <recent name="E:\javaEE\health_ssm\health_parent" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yyh.constant" />
+      <recent name="com.yyh.dao" />
+      <recent name="com.yyh.service.impl" />
+      <recent name="com.yyh.service" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -89,6 +95,45 @@
       <command value="mvn clean" />
       <command value="mvn compile" />
     </option>
+  </component>
+  <component name="RunManager" selected="JUnit.UploadTest.testQiNiuUtils">
+    <configuration name="UploadTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="health_backend" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UploadTest" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UploadTest.testQiNiuUtils" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="health_backend" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UploadTest" />
+      <option name="METHOD_NAME" value="testQiNiuUtils" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UploadTest.testUpload" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="health_backend" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UploadTest" />
+      <option name="METHOD_NAME" value="testUpload" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UploadTest.testQiNiuUtils" />
+        <item itemvalue="JUnit.UploadTest.test2" />
+        <item itemvalue="JUnit.UploadTest.testUpload" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -114,6 +159,24 @@
       <workItem from="1701454022992" duration="825000" />
       <workItem from="1701463928821" duration="1898000" />
       <workItem from="1702493618456" duration="5348000" />
+      <workItem from="1702659869631" duration="22153000" />
+      <workItem from="1701428017988" duration="3115000" />
+      <workItem from="1702775316635" duration="13064000" />
+      <workItem from="1702853570889" duration="3230000" />
+      <workItem from="1702888575806" duration="1412000" />
+      <workItem from="1702970640615" duration="873000" />
+      <workItem from="1703034662681" duration="60000" />
+      <workItem from="1703162278562" duration="11308000" />
+      <workItem from="1703184743095" duration="1443000" />
+      <workItem from="1703186274427" duration="94000" />
+      <workItem from="1703186374887" duration="258000" />
+      <workItem from="1703186639206" duration="77000" />
+      <workItem from="1703186728867" duration="12602000" />
+      <workItem from="1703204027019" duration="857000" />
+      <workItem from="1703226448918" duration="8677000" />
+      <workItem from="1703241712544" duration="3604000" />
+      <workItem from="1703246804070" duration="1676000" />
+      <workItem from="1703319221348" duration="9316000" />
     </task>
     <task id="LOCAL-00001" summary="修改数据库连接为utf-8,修改数据库字符集为utf-8">
       <created>1700722787622</created>

@@ -10,7 +10,6 @@ import com.qiniu.storage.Region;
 import com.qiniu.storage.UploadManager;
 import com.qiniu.storage.model.DefaultPutRet;
 import com.qiniu.util.Auth;
-import com.yyh.utils.QiNiuUtils;
 
 /**
  *

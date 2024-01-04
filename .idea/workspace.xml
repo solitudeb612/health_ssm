@@ -5,13 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="baed5c3e-c78c-4a94-9efb-516690ab4c5f" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_parent/health_jobs/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_parent/health_mobile/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_backend/src/main/resources/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_backend/src/main/resources/springmvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/health_backend/src/main/webapp/pages/checkitem.html" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_backend/src/main/webapp/pages/checkitem.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_parent/health_backend/src/main/java/com/yyh/controller/CheckGroupController.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_backend/src/main/java/com/yyh/controller/CheckGroupController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_parent/health_backend/src/main/java/com/yyh/controller/CheckItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_backend/src/main/java/com/yyh/controller/CheckItemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_parent/health_backend/src/main/java/com/yyh/controller/SetmealController.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_backend/src/main/java/com/yyh/controller/SetmealController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_parent/health_backend/src/main/webapp/css/orderset(1).css" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_backend/src/main/webapp/css/orderset.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/health_parent/health_common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_parent/health_common/src/main/java/com/yyh/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_common/src/main/java/com/yyh/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_parent/health_common/src/main/java/com/yyh/constant/MessageConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_common/src/main/java/com/yyh/constant/MessageConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_parent/health_common/src/main/java/com/yyh/entity/QueryPageBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_common/src/main/java/com/yyh/entity/QueryPageBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_parent/health_common/src/main/java/com/yyh/utils/QiNiuUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_common/src/main/java/com/yyh/utils/QiNiuUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_parent/health_interface/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_interface/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_parent/health_interface/src/main/java/com/yyh/service/SetmealService.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_interface/src/main/java/com/yyh/service/SetmealService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/java/com/yyh/dao/SetmealDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/java/com/yyh/dao/SetmealDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/java/com/yyh/service/impl/SetmealServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/java/com/yyh/service/impl/SetmealServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/resources/com/yyh/dao/CheckGroupDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/resources/com/yyh/dao/CheckGroupDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/resources/com/yyh/dao/CheckItemDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/resources/com/yyh/dao/CheckItemDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/resources/com/yyh/dao/SetmealDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/health_service_provider/src/main/resources/com/yyh/dao/SetmealDao.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/health_parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health_parent/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent/src/main/java/com/yyh/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yyh/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +39,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="UML Class" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -47,36 +64,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "DefaultPlantUmlFileTemplate": "UML Class",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "1.8 (2)",
-    "last_opened_file_path": "E:/后端/笔记/就业班2.1笔记源码-压缩版/阶段4：会员版(2.1)-医疗实战-传智健康/day04-第4章：预约管理-套餐管理/day04-第4章：预约管理-套餐管理/代码/quartzdemo",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "模块",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.25632185",
-    "settings.build.tools.auto.reload": "SELECTIVE",
-    "settings.editor.selected.configurable": "preferences.rainbow.brackets.color",
-    "spring.configuration.checksum": "8f682021bd83c608fc0d1bffaff1aa75",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;DefaultPlantUmlFileTemplate&quot;: &quot;UML Class&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8 (2)&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/javaEE/health_ssm/health_parent/health_mobile/src/main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.25632185&quot;,
+    &quot;settings.build.tools.auto.reload&quot;: &quot;SELECTIVE&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;0eb679817e754d1877c7c3ed8579bad9&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\javaEE\health_ssm\health_parent\health_service_provider\src\main\resources\com\yyh\dao" />
-      <recent name="E:\javaEE\health_ssm\health_parent\health_backend\src\main\resources" />
+      <recent name="E:\javaEE\health_ssm\health_parent\health_mobile\src\main" />
+      <recent name="E:\javaEE\health_ssm\health_parent\health_mobile\src\main\webapp" />
       <recent name="E:\javaEE\health_ssm\health_parent\health_backend\src\main\webapp\pages" />
-      <recent name="E:\javaEE\health_ssm\health_parent\health_backend\src\test\java" />
-      <recent name="E:\javaEE\health_ssm\health_parent\health_service_provider\src\main\java\com\yyh\service\impl" />
+      <recent name="E:\javaEE\health_ssm\health_parent\health_jobs\src\main\resources" />
+      <recent name="E:\javaEE\health_ssm\health_parent\health_service_provider\src\main\resources\com\yyh\dao" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\javaEE\health_ssm\health_parent\health_service_provider\src\main\resources" />
@@ -92,36 +110,54 @@
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
-      <command value="mvn clean" />
       <command value="mvn compile" />
+      <command value="mvn mvn -U idea:idea" />
+      <command value="mvn clean" />
+      <command value="mvn clean install -Dmaven.test.skip=true" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UploadTest.testQiNiuUtils">
-    <configuration name="UploadTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="health_backend" />
+  <component name="RunManager" selected="应用程序.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="health_service_provider" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="health_service_provider" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="UploadTest" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SentValidateCodeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="health_service_provider" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SentValidateCodeTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SentValidateCodeTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="health_service_provider" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SentValidateCodeTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SentValidateCodeTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="health_service_provider" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SentValidateCodeTest" />
       <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UploadTest.testQiNiuUtils" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="health_backend" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="UploadTest" />
-      <option name="METHOD_NAME" value="testQiNiuUtils" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UploadTest.testUpload" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="health_backend" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="UploadTest" />
-      <option name="METHOD_NAME" value="testUpload" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -129,9 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UploadTest.testQiNiuUtils" />
-        <item itemvalue="JUnit.UploadTest.test2" />
-        <item itemvalue="JUnit.UploadTest.testUpload" />
+        <item itemvalue="应用程序.Main" />
+        <item itemvalue="JUnit.Main.test" />
+        <item itemvalue="JUnit.SentValidateCodeTest.test2" />
+        <item itemvalue="JUnit.SentValidateCodeTest" />
+        <item itemvalue="JUnit.SentValidateCodeTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +214,21 @@
       <workItem from="1703226448918" duration="8677000" />
       <workItem from="1703241712544" duration="3604000" />
       <workItem from="1703246804070" duration="1676000" />
-      <workItem from="1703319221348" duration="9316000" />
+      <workItem from="1703319221348" duration="20806000" />
+      <workItem from="1703398086456" duration="290000" />
+      <workItem from="1703564721643" duration="591000" />
+      <workItem from="1703612253439" duration="640000" />
+      <workItem from="1703645864005" duration="2516000" />
+      <workItem from="1703652629034" duration="19064000" />
+      <workItem from="1703696056013" duration="5071000" />
+      <workItem from="1703742773373" duration="35802000" />
+      <workItem from="1703912989695" duration="5775000" />
+      <workItem from="1703942363221" duration="7871000" />
+      <workItem from="1704009870577" duration="20554000" />
+      <workItem from="1704206621941" duration="22729000" />
+      <workItem from="1704336445977" duration="656000" />
+      <workItem from="1704337270040" duration="596000" />
+      <workItem from="1704338835706" duration="593000" />
     </task>
     <task id="LOCAL-00001" summary="修改数据库连接为utf-8,修改数据库字符集为utf-8">
       <created>1700722787622</created>
@@ -185,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700722787622</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="上传文件到七牛云">
+      <created>1703352896234</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1703352896234</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,7 +263,46 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="修改数据库连接为utf-8,修改数据库字符集为utf-8" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改数据库连接为utf-8,修改数据库字符集为utf-8" />
+    <MESSAGE value="上传文件到七牛云" />
+    <option name="LAST_COMMIT_MESSAGE" value="上传文件到七牛云" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/health_parent/health_service_provider/src/test/java/ValidateCodeTest.java</url>
+          <line>5</line>
+          <properties class="ValidateCodeTest" method="test">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/health_parent/health_service_provider/src/test/java/ValidateCodeTest.java</url>
+          <line>10</line>
+          <properties class="ValidateCodeTest">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/health_parent/health_service_provider/src/test/java/Main.java</url>
+          <line>7</line>
+          <properties class="Main" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/health_parent/health_service_provider/src/test/java/Main.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

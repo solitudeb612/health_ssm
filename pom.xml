@@ -10,7 +10,6 @@
     <packaging>pom</packaging>
     <modules>
         <module>health_parent</module>
-        <module>health_parent/health_backend</module>
     </modules>
 
     <build>

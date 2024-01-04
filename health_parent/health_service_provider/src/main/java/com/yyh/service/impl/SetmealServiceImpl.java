@@ -14,6 +14,7 @@ import org.springframework.transaction.annotation.Transactional;
 import redis.clients.jedis.JedisPool;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -46,6 +47,18 @@ public class SetmealServiceImpl implements SetmealService{
         Page<Setmeal> page = setmealDao.findByCondition(queryString);
         return new PageResult(page.getTotal(),page.getResult());
     }
+
+    @Override
+    public List<Setmeal> findAll() {
+        return setmealDao.findAll();
+    }
+
+
+    @Override
+    public Setmeal findById(int id) {
+        return setmealDao.findById(id);
+    }
+
 
     //设置套餐和检查组多对多关系，操作t_setmeal_checkgroup
     public void setSetmealAndCheckgroup(Integer setmealId,Integer[] checkgroupIds){
